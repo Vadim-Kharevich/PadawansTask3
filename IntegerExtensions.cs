@@ -7,13 +7,9 @@ namespace PadawansTask3
         public static int Gcd(int a, int b)
         {
             if (b == 0 )
-            {
                 throw new DivideByZeroException();
-            }
             if (a == 0 && b == 0)
-            {
                 throw new ArgumentException();
-            }
             int r = -1;
             while (r != 0)
             {
