@@ -14,7 +14,11 @@ namespace PadawansTask3
             {
                 if (b == 0)
                 {
-                    throw new DivideByZeroException();
+                    if(a<0)
+                    {
+                        a*=-1;
+                    }
+                    return a;
                 }
             }
             int r = -1;
